@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <ul class="topnav" id="dropdownClick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+        <li class="topnav-right"><a href="#signin">Sign In</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0)" onclick="dropDownMenu()">&#9776;</a></li>
+    </ul>
+</nav>
+
+<div class="container" id="section-1-gradient">
+    <div class="row">
+        <div class="col-6">
+            <div class="leftSide-col">
+                <h1 class="large">Crazy Radness</h1>
+                <h1 class="large">Made for Developers</h1>
+            </div>
+            <form>
+                <div class="leftSide-col">
+                    <h2>Username</h2>
+                    <input class="inputbox" name="username" type="text">
+                    <h2>Password</h2>
+                    <input class="inputbox" name="username" type="text">
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="rightSide-col videoContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZUA5bFJoHw" frameborder="0"
+                        gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <h1 class="section2Header">The Standards of Stuff!</h1>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="devicon.png">
+                </div>
+                <label>Chat With Me</label>
+                <p>Nunquam quaestio abactus.Not zion or wonderland, know the freedom.
+                    Place the carrots in a soup pot, and garnish fully with mild lemon juice.
+                    Lubbers rise with adventure at the weird la marsa beach!</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="devicon.png">
+                </div>
+                <label>Chat With Me</label>
+                <p>Nunquam quaestio abactus.Not zion or wonderland, know the freedom.
+                    Place the carrots in a soup pot, and garnish fully with mild lemon juice.
+                    Lubbers rise with adventure at the weird la marsa beach!</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="box">
+                <div class="icon">
+                    <img src="devicon.png">
+                </div>
+                <label>Chat With Me</label>
+                <p>Nunquam quaestio abactus.Not zion or wonderland, know the freedom.
+                    Place the carrots in a soup pot, and garnish fully with mild lemon juice.
+                    Lubbers rise with adventure at the weird la marsa beach!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-7">
+            <article>
+                <p>Bursas sunt triticums de neuter secula.
+                    In heavens PLURALexperiment agreeable justice.
+                    Place the steak in a fine-mesh strainer, and rub exactly with sliced whipped cream.
+                    Bursas sunt triticums de neuter secula.
+                    In heavens PLURALexperiment agreeable justice.
+                    Place the steak in a fine-mesh strainer, and rub exactly with sliced whipped cream.
+                    Bursas sunt triticums de neuter secula.
+                    In heavens PLURALexperiment agreeable justice.
+                    Place the steak in a fine-mesh strainer, and rub exactly with sliced whipped cream.</p>
+            </article>
+        </div>
+        <div class="col-5">
+            <div class="slopeIcon">
+                <img src="iOS-Slope.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="row">
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+        <div class="col-3 mobileStack">
+            <h1>Company</h1>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+<script>
+    function dropDownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if(x.className === "topnav") {
+            x.className = "topnav responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
